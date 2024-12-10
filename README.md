@@ -3,7 +3,7 @@ Here is a sample `README.md` file for your Markdown parser package:
 ```markdown
 # Markdown Parser
 
-![npm](https://img.shields.io/npm/v/markdown-parser) ![license](https://img.shields.io/npm/l/markdown-parser) ![issues](https://img.shields.io/github/issues/nrcool/markdown-parser)
+![npm](https://img.shields.io/npm/v/markdown-parser-naqvi) ![license](https://img.shields.io/npm/l/markdown-parser-naqvi) ![issues](https://img.shields.io/github/issues/nrcool/markdown-parser-naqvi)
 
 **Markdown Parser** is a lightweight and efficient JavaScript library for converting Markdown syntax to HTML. It's perfect for rendering Markdown content in your web applications.
 
@@ -27,13 +27,13 @@ Here is a sample `README.md` file for your Markdown parser package:
 Install the package via npm:
 
 ```bash
-npm install markdown-parser
+npm install markdown-parser-naqvi
 ```
 
 ## Usage
 
 ```javascript
-import parseMarkdown from 'markdown-parser';
+import parseMarkdown from 'markdown-parser-naqvi';
 
 // Example Markdown content
 const markdown = `
@@ -59,7 +59,7 @@ console.log(markdown);
 1. Ordered lists work
 2. Just like this
 
-[Visit us on GitHub](https://github.com/nrcool/markdown-parser)
+[Visit us on GitHub](https://github.com/nrcool/markdown-parser-naqvi)
 
 ---
 
@@ -78,7 +78,7 @@ console.log(html);
 ### React
 ```js
 import React from 'react';
-import parseMarkdown from 'markdown-parser';
+import parseMarkdown from 'markdown-parser-naqvi';
 
 const MarkdownRenderer = () => {
   const html = parseMarkdown(markdown);
@@ -139,5 +139,5 @@ This project is inspired by the simplicity of Markdown and the need for an easy-
 
 ---
 
-⭐️ **If you find this package helpful, please give it a star on [GitHub](https://github.com/nrcool/markdown-parser)!**
+⭐️ **If you find this package helpful, please give it a star on [GitHub](https://github.com/nrcool/markdown-parser-naqvi)!**
 ```
